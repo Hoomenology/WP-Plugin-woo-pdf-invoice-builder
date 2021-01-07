@@ -53,6 +53,12 @@ class DocumentGenerator
                                 @page{
                                     margin:0;
                                 }                            
+                                .documentHeader{
+                                    background-color: #eaf2ef;
+                                }
+                                td.fieldValueContainer p {
+                                    line-height: 1.5rem !important;
+                                }                          
                  </style>';
         $html.='<style>'.$this->options->containerOptions->styles.'</style>';
 
